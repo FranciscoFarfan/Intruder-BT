@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Este proyecto de hardware y software nació del reto de revivir una antigua camioneta 4x4 RC de los años 90. Debido a que su electrónica original estaba obsoleta y resultaba imposible de reparar de forma convencional, diseñé una solución personalizada de bajo costo. Utilizando un Arduino como cerebro central, reemplacé por completo el sistema de radio control original. El proyecto consistió en programar el Arduino para actuar como receptor Bluetooth, interpretar comandos de joystick en texto plano enviados por puerto serial utilizando una aplicación móvil genérica de la Play Store y un cliente de escritorio propio programado en Java (actualmente "lost media"), y traducir estas señales en movimiento físico a través de un puente H para el motor principal y un servomotor moderno para la dirección.
+Este proyecto de hardware y software nació del reto de revivir una antigua camioneta 4x4 RC de los años 90. Debido a que su electrónica original estaba obsoleta y resultaba imposible de reparar de forma convencional, diseñé una solución personalizada de bajo costo. Utilizando un Arduino como cerebro central, reemplacé por completo el sistema de radio control original. El proyecto consistió en programar el Arduino para actuar como receptor Bluetooth, interpretar comandos de joystick en texto plano enviados por puerto serial utilizando una aplicación móvil genérica de la Play Store y un cliente de escritorio propio programado en Java (incluido en este repositorio), y traducir estas señales en movimiento físico a través de un puente H para el motor principal y un servomotor moderno para la dirección.
 
 Aunque el proyecto se detuvo una vez que demostró ser exitoso y adquirí equipo de RC comercial, representa un excelente ejemplo de resolución de problemas, integración de microcontroladores con electrónica de potencia y "retrofit" de hardware antiguo.
 
@@ -20,7 +20,7 @@ Aunque el proyecto se detuvo una vez que demostró ser exitoso y adquirí equipo
 ### Tecnologías Usadas
 
 - **Hardware:** Arduino (Microcontrolador principal), Módulo Bluetooth, Controlador de Motor Puente H, Servomotor.
-- **Software/Lenguajes:** C / C++ (Arduino IDE) para el firmware, y Java para el desarrollo de un cliente de escritorio de control remoto (este último considerado "lost media" actualmente).
+- **Software/Lenguajes:** C / C++ (Arduino IDE) para el firmware, y Java para el desarrollo del cliente de escritorio de control remoto (código disponible en el repositorio).
 - **Electrónica:** Diseño de circuitos básicos para control de motores y lógica de señales.
 
 ### Innovaciones
